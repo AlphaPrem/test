@@ -43,7 +43,7 @@ const Sidebar = ({
           {link.map((item, index) => (
             <Link
               className={cn(
-                pathEnd === item.href ? 'bg-slate-500' : '',
+                pathEnd === item.href ? 'bg-slate-300' : '',
                 'flex flex-row items-center gap-5 p-3 w-full rounded-md'
               )}
               key={index}
